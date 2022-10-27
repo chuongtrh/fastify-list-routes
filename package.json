@@ -2,6 +2,12 @@
   "name": "fastify-list-routes",
   "version": "1.0.0",
   "description": "A simple plugin for Fastify list all available routes.",
+  "repository": "https://github.com/chuongtrh/fastify-list-routes",
+  "keywords": [
+    "fastify",
+    "fastify-plugin",
+    "routes"
+  ],
   "main": "index.js",
   "dependencies": {
     "fastify-plugin": "^4.3.0"

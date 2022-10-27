@@ -1,5 +1,15 @@
 A simple plugin for Fastify list all available routes.
 
+## Installation
+
+```base
+npm i fastify-list-routes
+```
+
+```base
+yarn add npm i fastify-list-routes
+```
+
 ## Usage
 
 Try to register a plugin as early as possible before register routes.
