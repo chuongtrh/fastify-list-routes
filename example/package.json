@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "author": "chuongtrh@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.9.2",
+    "fastify-plugin": "^4.3.0"
+  }
+}
