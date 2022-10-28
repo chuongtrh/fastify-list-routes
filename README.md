@@ -7,7 +7,7 @@ npm i fastify-list-routes
 ```
 
 ```base
-yarn add npm i fastify-list-routes
+yarn add fastify-list-routes
 ```
 
 ## Usage
@@ -20,10 +20,10 @@ Try to register a plugin as early as possible before register routes.
 
 ```js
 const fastify = require("fastify")();
-const fastifyListRoute = require("../index");
+const fastifyListRoutes = require("fastify-list-routes");
 
 async function run() {
-  await fastify.register(fastifyListRoute, { colors: true });
+  await fastify.register(fastifyListRoutes, { colors: true });
 
   fastify.get("/", (request, reply) => {
     reply.send({ hello: "world" });
