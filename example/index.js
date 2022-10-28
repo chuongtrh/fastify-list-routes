@@ -22,6 +22,18 @@ async function run() {
 
   fastify.register(require("./demo"), { prefix: "/demo" });
 
+  fastify.patch("/bbb", {
+    async handler() {
+      return { ok: true };
+    },
+  });
+
+  fastify.post("/aaa", {
+    async handler() {
+      return { ok: true };
+    },
+  });
+
   fastify.listen({ port: 3000 }, (err, address) => {
     if (err) throw err;
 

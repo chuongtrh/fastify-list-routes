@@ -37,6 +37,9 @@ function printRoutes(routeOptions, opts) {
     return;
   }
 
+  //Sort route Options
+  routeOptions.sort((a, b) => a.url.localeCompare(b.url));
+
   console.info("Available routes:");
   for (const routeOption of routeOptions) {
     const { method, url } = routeOption;
