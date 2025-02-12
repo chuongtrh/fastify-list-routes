@@ -10,7 +10,7 @@
   "author": "chuongtrh@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "fastify": "^4.9.2",
-    "fastify-plugin": "^4.3.0"
+    "fastify": "^5.2.0",
+    "fastify-plugin": "^5.0.0"
   }
 }

@@ -10,7 +10,7 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "fastify-plugin": "^4.3.0"
+    "fastify-plugin": "^5.0.0"
   },
   "devDependencies": {},
   "scripts": {

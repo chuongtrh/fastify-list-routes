@@ -63,5 +63,5 @@ function fastifyListRoute(instance, opts, next) {
 
 module.exports = fp(fastifyListRoute, {
   name: "fastify-list-routes",
-  fastify: "4.x",
+  fastify: "5.x",
 });
